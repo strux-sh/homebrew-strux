@@ -1,24 +1,24 @@
 class Strux < Formula
   desc "A framework for building kiosk-style operating systems"
   homepage "https://github.com/strux-dev/strux"
-  version "0.0.9"
+  version "0.0.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/strux-dev/strux/releases/download/v0.0.9/strux-0.0.9-darwin-arm64.tar.gz"
-      sha256 "7dc4740734707dc351024d4f7e5921887246ffa00c6794c6b3f98e4297893ab5"
+      url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-0.0.10-darwin-arm64.tar.gz"
+      sha256 "1f824424fab456cf5e04e8ef91a4858f2df160a6243d60322ae8066a9965b78a"
     else
-      url "https://github.com/strux-dev/strux/releases/download/v0.0.9/strux-0.0.9-darwin-x64.tar.gz"
-      sha256 "eeab4fb6f852f5c14f66675a84d39e33c77c98be8100b0dae2a9acc1ca1ab7ae"
+      url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-0.0.10-darwin-x64.tar.gz"
+      sha256 "e2f5b823a0518255b81f9c81fa7c183b8896f15d3a919d90de0041d31ffb9efd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/strux-dev/strux/releases/download/v0.0.9/strux-linux-arm64"
+      url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-linux-arm64"
     else
-      url "https://github.com/strux-dev/strux/releases/download/v0.0.9/strux-linux-x64"
+      url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-linux-x64"
     end
   end
 
