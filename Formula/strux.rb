@@ -1,24 +1,24 @@
 class Strux < Formula
   desc "A framework for building kiosk-style operating systems"
   homepage "https://github.com/strux-dev/strux"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/strux-dev/strux/releases/download/v0.1.1/strux-0.1.1-darwin-arm64.tar.gz"
-      sha256 "21e2af4102b66d9546eb4986475ef23335d08af4337c8991ac20065db6a1cd5f"
+      url "https://github.com/strux-dev/strux/releases/download/v0.1.2/strux-0.1.2-darwin-arm64.tar.gz"
+      sha256 "1771ce404c6a8761294be2f9d46c3fcf4aa05c0bef67f381acddbffe89d3ab42"
     else
-      url "https://github.com/strux-dev/strux/releases/download/v0.1.1/strux-0.1.1-darwin-x64.tar.gz"
-      sha256 "19793ee4f0840c0e9096de52b612be2390506dd3fac7f50cbc0cf942ba3ca90c"
+      url "https://github.com/strux-dev/strux/releases/download/v0.1.2/strux-0.1.2-darwin-x64.tar.gz"
+      sha256 "436983672e6d38c83cfb8d3ff05f428352eb84216458923ebc8d43e53f14f3f0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/strux-dev/strux/releases/download/v0.1.1/strux-linux-arm64"
+      url "https://github.com/strux-dev/strux/releases/download/v0.1.2/strux-linux-arm64"
     else
-      url "https://github.com/strux-dev/strux/releases/download/v0.1.1/strux-linux-x64"
+      url "https://github.com/strux-dev/strux/releases/download/v0.1.2/strux-linux-x64"
     end
   end
 
